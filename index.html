@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+    
+
+</head>
+<body>
+    
+    <div class="container">
+        <div>
+            <label for="Poster">Select Poster</label><br>
+            <select name="Poster" id="selection">
+                <option>Ainz</option>
+                <option>Albedo</option>
+                <option>Boji</option>
+                <option>Ganyu</option>
+                <option>Gentle Criminal</option>
+                <option>Goblinslayer</option>
+                <option>High Elf Archer</option>
+                <option>Inkgirl</option>
+                <option>Jalter</option>
+                <option>Jolyne</option>
+                <option>Kiara</option>
+                <option>Manticore</option>
+                <option>Miila</option>
+                <option>Miku 5lets</option>
+                <option>Mirko</option>
+                <option>Mona</option>
+                <option>Nyalter</option>
+                <option>Polnareff</option>
+                <option>Procsan</option>
+                <option>Rebecca</option>
+                <option>Revy</option>
+                <option>Senku</option>
+                <option>Sombra</option>
+                <option>Tanjiro</option>
+                <option>Venti anemo</option>
+                <option>Venti normal</option>
+                <option>Yae Miku</option>
+                <option>Yor</option>
+            </select>
+        </div>
+        <div>
+            <label for="Format">Select Format</label><br>
+            <select name="Format" id="format">
+                <option>A5</option>
+                <option>A4</option>
+                <option>A3</option>
+                <option>Big Poster</option>
+            </select>
+        </div>
+        <div class="pricebox">
+            <label for="Price">Price</label><br>
+            <input type="number" name="Price" id="price">
+        </div>
+        <div class="confirmbox">
+            <div>
+                <button id="button">Confirm</button>
+            </div>
+            <div>
+                <button id="deleteButton" onclick="deleteLastInput()">Delete Last Input</button>
+            </div>
+        </div>
+    </div>
+    <ul id="myList">
+        <li id="result"></li>
+    </ul>
+
+    
+    
+    <script src="./script.js"></script>
+</body>
+</html>

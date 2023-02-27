@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+    
+   }
+
+
+
+
+.container {
+    position: sticky;
+    justify-content: flex-end;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    border-bottom: solid rgb(105, 105, 105);
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+}
+
+label {
+    font-size: 18px;
+}
+
+select {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.pricebox {
+    width: auto;
+    margin-bottom: 30px;
+}
+
+#price {
+    font-size: 30px;
+}
+
+button {
+    font-size: 40px;
+    background-color: rgb(9, 212, 9);
+    border-radius: 10px;
+    
+}
+#deleteButton {
+    font-size: 12px;
+    background-color: red;
+    align-self: flex-start;
+}
+
+ul {
+    background: azure;
+    padding: 20px;
+    display: flex;
+    flex-direction: column-reverse;
+}
+ul li {
+    background: rgba(9, 198, 212, 0.514);
+    color: rgb(0, 0, 0);
+    margin: 5px;
+    list-style-type: none;
+    
+}
+
+.confirmbox {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 50%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
